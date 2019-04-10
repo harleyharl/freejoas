@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :suburb %>
-    <%= form.text_field :suburb %>
+    <%= form.select :suburb, options_for_select(auckland_suburbs), {:prompt => true} %>
   </div>
 
   <div class="field">
