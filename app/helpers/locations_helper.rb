@@ -61,5 +61,23 @@ module LocationsHelper
     "Westmere"]
   end
 
+  def nz_cities
+    ["Auckland",
+    "Wellington",
+    "Christchurch",
+    "Hamilton",
+    "Tauranga",
+    "Napier-Hastings",
+    "Dunedin",
+    "Palmerston North",
+    "Nelson",
+    "Rotorua",
+    "Whangarei",
+    "New Plymouth",
+    "Invercargill",
+    "Whanganui",
+    "Gisborne"]
+  end
+
 
 end
